@@ -47,7 +47,7 @@ def generate_fraud_dataset(num_samples=5000):
             device_trust_score[i] = np.random.uniform(0.0, 0.4)
             behavior_anomaly_score[i] = np.random.uniform(0.6, 1.0)
 
-    # 4. Create DataFrame
+    # 4. Create  DataFrame
     df = pd.DataFrame({
         'amount': np.round(amount, 2),
         'hour_of_day': hour,
