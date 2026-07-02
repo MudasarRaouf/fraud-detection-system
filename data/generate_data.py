@@ -19,7 +19,7 @@ def generate_fraud_dataset(num_samples=5000):
     hour = np.random.randint(0, 24, size=num_samples)
     
     # 2. User Telemetry & Location Risk (Sensors)
-    # 0 = Domestic/Trusted, 1 = High-risk international IP/Location mismatch
+    # 0 = Domestic/Trusted,  1 = High-risk international IP/Location mismatch
     location_mismatch = np.random.choice([0, 1], size=num_samples, p=[0.93, 0.07])
     
     # Device fingerprint trust score (0.0 to 1.0, lower means suspicious/new device)
