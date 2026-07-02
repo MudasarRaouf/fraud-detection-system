@@ -5,7 +5,7 @@ import os
 def generate_fraud_dataset(num_samples=5000):
     np.random.seed(42)
     
-    # 1. Generate Transaction Metadata (Sensors)
+    # 1. Generate Transaction  Metadata (Sensors)
     amount = np.random.exponential(scale=50, size=num_samples) + 1  # Most transactions are small
     # Add a few massive transactions (often a fraud indicator)
     high_value_indices = np.random.choice(num_samples, size=int(num_samples * 0.02), replace=False)
