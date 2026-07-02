@@ -4,7 +4,7 @@ An interactive, real-time Machine Learning application designed to evaluate fina
 
 ---
 
-## 👥 Team Members & Project Contributors
+## 👥 Team Members & Project  Contributors
 
 * **👑 Project Leader:** Mudasar Ali — *Roll No: 2k23/CSM/80*
 * **💻 Team Member:** Devi Khatri — *Roll No: 2k23/CSM/33*
