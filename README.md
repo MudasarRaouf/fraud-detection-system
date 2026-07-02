@@ -60,11 +60,4 @@ The system acts as an intelligent agent processing raw sensor inputs to determin
 
 ---
 
-## 🛠️ Local Setup and Execution Instructions
 
-To run this project on a demonstration computer during evaluation, follow these quick terminal steps:
-
-### 1. Replicate Dependencies
-Ensure Python is installed on your device. Open your terminal inside the root project directory and install the necessary libraries:
-```bash
-pip install -r requirements.txt
